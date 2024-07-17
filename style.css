@@ -1,0 +1,78 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#game-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+h1 {
+  color: #333333;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+#image-container {
+  height: 300px;
+}
+
+#image-container img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 100%;
+}
+
+#word-container {
+  font-size: 24px;
+  letter-spacing: 10px;
+  margin-bottom: 20px;
+}
+
+#letters-container button {
+  font-size: 18px;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: #636363;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#letters-container button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+#letters-container button:hover:not(:disabled) {
+  background-color: #63636391;
+}
+
+#reset-button {
+  background-color: #5b166e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#reset-button:hover {
+  background-color: #5b166ea9;
+}
